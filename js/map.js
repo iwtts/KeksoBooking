@@ -21,7 +21,7 @@ const mainMarker = L.marker(
   {
     icon: MAIN_MARKER_ICON,
     draggable: true,
-  }
+  },
 );
 
 mainMarker.on('moveend', () => {
